@@ -1,0 +1,19 @@
+{
+  "name": "pop-financeiro-mmb",
+  "version": "2.0.0",
+  "description": "POP Departamento Financeiro - Grupo MMB",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "financeiro",
+    "pop",
+    "mmb",
+    "administradora"
+  ],
+  "author": "Grupo MMB",
+  "license": "UNLICENSED",
+  "private": true
+}
