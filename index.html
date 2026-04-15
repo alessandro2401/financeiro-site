@@ -535,7 +535,16 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <!-- Autenticação removida - Acesso livre -->
     
+    
+
+    <script src="auth.js"></script>
+    <script>
+        // Proteção de acesso - redireciona para login se não autenticado
+        if (!authManager.protectPage()) {
+            // Será redirecionado para login.html
+        }
+    </script>
+
 </body>
 </html>
