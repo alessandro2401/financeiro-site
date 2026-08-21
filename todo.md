@@ -1,0 +1,3 @@
+- [x] Remover credenciais e autenticação client-side expostas em auth.js
+- [x] Migrar login, sessão e logout para API server-side com cookie HttpOnly
+- [x] Adicionar headers de segurança e testes de autenticação
